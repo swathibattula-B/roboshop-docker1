@@ -1,5 +1,5 @@
 FROM node:20
-workdir /app
+WORKDIR  /app
 COPY package*.json ./
 COPY *.JS .
 RUN npm install
